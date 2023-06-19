@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "resumeproject/resumeproject/wsgi.py",
+        "src": "./resumeproject/resumeproject/wsgi.py",
         "use": "@vercel/python",
         "config": { "maxLambdaSize": "15mb", "runtime": "python3.11" }
       },
