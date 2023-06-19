@@ -1,0 +1,17 @@
+{% load static %}
+<div class="" style="border-right: 2px solid orange; height:100%;">
+    <div class="text-center">
+        <div>
+            <img src="{% static 'core/images/resume.png' %}" alt="ProfilePic"
+            class="img-fluid rounded-circle mt-5 " width="100px" height="100px">
+            <h3 class=" text-white mt-3 st-font">Haris Saeed</h3>
+            
+        </div>
+        <hr class="border-light">
+        <nav class="nav flex-column text-center ">
+            <a href="{% url 'homi' %}" class="nav-link">Home</a>
+            <a href="{% url 'services' %}" class="nav-link">Services</a>
+            <a href="{% url 'skill' %}" class="nav-link">Skill</a>
+            <a href="{% url 'contact' %}" class="nav-link">Content</a>
+            </nav>
+    </div>
